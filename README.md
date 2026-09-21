@@ -96,3 +96,26 @@ either clearly marked in the UI or structured for one-line replacement.
 
 Static hosting — Netlify, Vercel, Cloudflare Pages, GitHub Pages, S3, or any
 nginx/Apache box. Publish the repository root as the web root.
+
+### Vercel
+
+`vercel.json` pins the correct zero-config static behavior (no install step,
+no build step, serve the repository root). The site needs **no build** — the
+deployed branch must contain `index.html` at its root.
+
+Required project settings (Dashboard → Project → Settings):
+
+| Setting | Value |
+| --- | --- |
+| Framework Preset | **Other** |
+| Root Directory | *(empty — the repository root, not a subfolder)* |
+| Build Command | *(empty — `vercel.json` disables the build step)* |
+| Output Directory | *(empty — `vercel.json` serves the project root)* |
+| Install Command | *(empty — there is no `package.json`)* |
+| Environment Variables | none |
+| Production Branch | the branch that contains the website (see below) |
+
+**Important:** Vercel deploys the Production Branch (usually `main`). The
+branch it deploys must contain `index.html` at the root — if `main` is behind,
+merge the website into `main` first or point the Production Branch at the
+branch that has the site.
