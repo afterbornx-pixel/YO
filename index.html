@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>Blackgrid — Digital Agency &amp; Website Development</title>
+  <meta name="description" content="Blackgrid creates modern websites, digital experiences, and web solutions for ambitious businesses, startups, creators, and brands.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://blackgrid.studio/">
+  <meta name="theme-color" content="#0a0a0b">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Blackgrid">
+  <meta property="og:title" content="Blackgrid — Digital Agency &amp; Website Development">
+  <meta property="og:description" content="Blackgrid creates modern websites, digital experiences, and web solutions for ambitious businesses, startups, creators, and brands.">
+  <meta property="og:url" content="https://blackgrid.studio/">
+  <meta property="og:image" content="https://blackgrid.studio/assets/og.jpg">
+  <meta property="og:image:alt" content="Blackgrid — dark grid composition">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blackgrid — Digital Agency &amp; Website Development">
+  <meta name="twitter:description" content="Blackgrid creates modern websites, digital experiences, and web solutions for ambitious businesses, startups, creators, and brands.">
+  <meta name="twitter:image" content="https://blackgrid.studio/assets/og.jpg">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Type: Space Grotesk (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Blackgrid",
+    "description": "Blackgrid creates modern websites, digital experiences, and web solutions for ambitious businesses, startups, creators, and brands.",
+    "url": "https://blackgrid.studio/",
+    "logo": "https://blackgrid.studio/assets/favicon.svg",
+    "areaServed": "Worldwide",
+    "serviceType": [
+      "Website Design",
+      "Website Development",
+      "Landing Pages",
+      "E-Commerce Development",
+      "UI/UX Design",
+      "Website Redesign",
+      "Website Maintenance",
+      "Performance Optimization",
+      "SEO-Ready Development",
+      "Digital Branding"
+    ]
+  }
+  </script>
+
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Ambient layers -->
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- =====================================================================
+       Header / Navigation
+       ===================================================================== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#home" aria-label="Blackgrid — home">
+        <svg class="logo-mark" viewBox="0 0 18 18" aria-hidden="true" focusable="false">
+          <rect class="cell" x="1" y="1" width="6.5" height="6.5"></rect>
+          <rect class="cell cell--on" x="10.5" y="1" width="6.5" height="6.5"></rect>
+          <rect class="cell" x="1" y="10.5" width="6.5" height="6.5"></rect>
+          <rect class="cell" x="10.5" y="10.5" width="6.5" height="6.5"></rect>
+        </svg>
+        Blackgrid
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="btn btn--primary nav-cta" href="#contact" data-magnetic>
+        Start a Project <span class="arrow" aria-hidden="true">→</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true" inert>
+      <nav aria-label="Mobile">
+        <a href="#home"><span class="idx">00</span> Home</a>
+        <a href="#services"><span class="idx">01</span> Services</a>
+        <a href="#work"><span class="idx">02</span> Work</a>
+        <a href="#about"><span class="idx">04</span> About</a>
+        <a href="#process"><span class="idx">03</span> Process</a>
+        <a href="#contact"><span class="idx">05</span> Contact</a>
+      </nav>
+      <div class="mobile-menu-foot">
+        <a class="btn btn--primary btn--block" href="#contact" data-magnetic>
+          Start a Project <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <div class="mobile-menu-meta">
+          <span>Design × Development × Digital</span>
+          <span>BG—2026</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================================
+         Hero
+         ===================================================================== -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-coords hero-coords--tr" aria-hidden="true">
+        <span>BG—Index / 2026</span>
+        <span>Sys: Active</span>
+      </div>
+
+      <div class="hero-inner container">
+        <p class="hero-trust" data-reveal>Design × Development × Digital</p>
+
+        <h1 class="hero-title" data-reveal-lines>
+          <span class="line"><span class="line-inner">We build digital</span></span>
+          <span class="line"><span class="line-inner">experiences that</span></span>
+          <span class="line"><span class="line-inner">move brands</span></span>
+          <span class="line"><span class="line-inner">forward.</span></span>
+        </h1>
+
+        <p class="hero-support" data-reveal style="--d:.25s">Websites designed to look exceptional, perform flawlessly, and turn visitors into customers.</p>
+
+        <div class="hero-row">
+          <div class="hero-ctas" data-reveal style="--d:.35s">
+            <a class="btn btn--primary" href="#contact" data-magnetic>
+              Start a Project <span class="arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn--ghost" href="#work" data-magnetic>
+              View Our Work <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+          <p class="hero-desc" data-reveal style="--d:.45s">
+            Blackgrid creates premium websites and digital experiences for businesses,
+            startups, creators, and modern brands — built to look bigger, better, and
+            more credible online.
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-coords hero-coords--bl" aria-hidden="true">
+        <span class="hero-scroll-hint"><span class="tick"></span> Scroll</span>
+      </div>
+
+      <!-- Process indicators — no fabricated metrics -->
+      <div class="hero-stats container" data-reveal style="--d:.55s">
+        <div class="stat">
+          <span class="stat-num">01</span>
+          <span class="stat-name">Strategy</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">02</span>
+          <span class="stat-name">Design</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">03</span>
+          <span class="stat-name">Development</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">04</span>
+          <span class="stat-name">Launch</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         01 / SERVICES
+         ===================================================================== -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-label"><span class="sec-label-num">01</span><span class="sec-label-sep">/</span><span>Services</span></p>
+          <span class="sec-coord" aria-hidden="true">BG.01</span>
+        </header>
+
+        <div class="sec-headline-row">
+          <h2 class="sec-title display" id="services-title" data-reveal>What we build</h2>
+          <p class="sec-intro" data-reveal style="--d:.1s">From first idea to final launch, Blackgrid creates digital experiences built around your goals.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card" tabindex="0" data-reveal style="--d:0s">
+            <span class="service-num">S.01</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>Website Design</h3>
+            <p>Beautiful, modern interfaces designed around your brand and audience.</p>
+            <p class="service-extra">Visual systems · Layout · Interaction</p>
+          </article>
+
+          <article class="service-card" tabindex="0" data-reveal style="--d:.05s">
+            <span class="service-num">S.02</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>Website Development</h3>
+            <p>Fast, responsive, scalable websites built with modern technologies.</p>
+            <p class="service-extra">Front-end · CMS · Integrations</p>
+          </article>
+
+          <article class="service-card" tabindex="0" data-reveal style="--d:.1s">
+            <span class="service-num">S.03</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>Landing Pages</h3>
+            <p>High-impact landing pages designed to communicate value and drive action.</p>
+            <p class="service-extra">Campaigns · Launches · Conversion</p>
+          </article>
+
+          <article class="service-card" tabindex="0" data-reveal style="--d:.15s">
+            <span class="service-num">S.04</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>E-Commerce</h3>
+            <p>Modern online stores designed for usability, trust, and conversions.</p>
+            <p class="service-extra">Storefront · Checkout · Catalog</p>
+          </article>
+
+          <article class="service-card" tabindex="0" data-reveal style="--d:0s">
+            <span class="service-num">S.05</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>UI/UX Design</h3>
+            <p>Clear, intuitive experiences that make digital products easier to use.</p>
+            <p class="service-extra">Flows · Wireframes · Prototypes</p>
+          </article>
+
+          <article class="service-card" tabindex="0" data-reveal style="--d:.05s">
+            <span class="service-num">S.06</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>Website Redesign</h3>
+            <p>Transform outdated websites into modern digital experiences.</p>
+            <p class="service-extra">Audit · Rebuild · Migration</p>
+          </article>
+
+          <article class="service-card" tabindex="0" data-reveal style="--d:.1s">
+            <span class="service-num">S.07</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>Performance</h3>
+            <p>Speed, responsiveness, accessibility, and technical optimization.</p>
+            <p class="service-extra">Core Web Vitals · A11y · Speed</p>
+          </article>
+
+          <article class="service-card" tabindex="0" data-reveal style="--d:.15s">
+            <span class="service-num">S.08</span>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <h3>SEO-Ready Development</h3>
+            <p>Websites structured with search visibility and technical best practices in mind.</p>
+            <p class="service-extra">Structure · Metadata · Semantics</p>
+          </article>
+        </div>
+
+        <div class="services-end">
+          <p>Also: business sites · portfolios · maintenance · digital branding</p>
+          <a class="link-arrow" href="#contact">Start a Project <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         02 / WORK
+         NOTE: placeholder case studies — replace copy, imagery and links
+         (search for data-placeholder) with real projects when available.
+         ===================================================================== -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-label"><span class="sec-label-num">02</span><span class="sec-label-sep">/</span><span>Work</span></p>
+          <span class="sec-coord" aria-hidden="true">BG.02</span>
+        </header>
+
+        <div class="sec-headline-row">
+          <h2 class="sec-title display" id="work-title" data-reveal>Selected work</h2>
+          <p class="sec-intro" data-reveal style="--d:.1s">A few digital experiences built to stand out.</p>
+        </div>
+
+        <div class="work-grid">
+          <!-- PLACEHOLDER PROJECT — replace with a real case study -->
+          <article class="project project--a" data-placeholder>
+            <a class="project-media" href="#contact" data-reveal-media aria-label="View Northline project — placeholder, link to case study">
+              <img data-parallax src="assets/work/northline.jpg" alt="Dark SaaS analytics marketing site mockup with thin line charts and data cards" width="1024" height="1536" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-title-row">
+                <h3>Northline</h3>
+                <span class="project-industry">SaaS</span>
+              </div>
+              <p class="project-desc">A marketing site for a data platform — structured around clarity, speed, and a product story that sells itself.</p>
+              <div class="project-side">
+                <ul class="project-services">
+                  <li>Website Design</li>
+                  <li>Development</li>
+                </ul>
+                <a class="link-arrow" href="#contact">View project <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT -->
+          <article class="project project--b" data-placeholder>
+            <a class="project-media" href="#contact" data-reveal-media aria-label="View Foldwell project — placeholder, link to case study">
+              <img data-parallax src="assets/work/foldwell.jpg" alt="Dark fashion e-commerce storefront mockup with moody product cards" width="1024" height="1536" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-title-row">
+                <h3>Foldwell</h3>
+                <span class="project-industry">E-Commerce</span>
+              </div>
+              <p class="project-desc">A conversion-focused storefront for a modern apparel label.</p>
+              <div class="project-side">
+                <ul class="project-services">
+                  <li>E-Commerce</li>
+                  <li>UI/UX</li>
+                </ul>
+                <a class="link-arrow" href="#contact">View project <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT -->
+          <article class="project project--c" data-placeholder>
+            <a class="project-media" href="#contact" data-reveal-media aria-label="View Lumen Foundry project — placeholder, link to case study">
+              <img data-parallax src="assets/work/lumen.jpg" alt="Startup product landing page mockup with geometric line diagram" width="1024" height="1536" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-title-row">
+                <h3>Lumen Foundry</h3>
+                <span class="project-industry">Startup</span>
+              </div>
+              <p class="project-desc">A launch site that makes a complex product feel simple and credible.</p>
+              <div class="project-side">
+                <ul class="project-services">
+                  <li>Website Design</li>
+                  <li>Development</li>
+                  <li>Branding</li>
+                </ul>
+                <a class="link-arrow" href="#contact">View project <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT -->
+          <article class="project project--d" data-placeholder>
+            <a class="project-media" href="#contact" data-reveal-media aria-label="View Studio Kern project — placeholder, link to case study">
+              <img data-parallax src="assets/work/kern.jpg" alt="Minimal architecture studio portfolio mockup in a strict grayscale grid" width="1024" height="1536" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-title-row">
+                <h3>Studio Kern</h3>
+                <span class="project-industry">Portfolio</span>
+              </div>
+              <p class="project-desc">A minimal portfolio structured around the work — quiet, precise, and easy to update.</p>
+              <div class="project-side">
+                <ul class="project-services">
+                  <li>Portfolio Website</li>
+                  <li>Redesign</li>
+                </ul>
+                <a class="link-arrow" href="#contact">View project <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT -->
+          <article class="project project--e" data-placeholder>
+            <a class="project-media" href="#contact" data-reveal-media aria-label="View Harbor and Lane project — placeholder, link to case study">
+              <img data-parallax src="assets/work/harbor.jpg" alt="Dark hospitality website mockup with a moody cafe interior panel" width="1024" height="1536" loading="lazy" decoding="async">
+            </a>
+            <div class="project-info">
+              <div class="project-title-row">
+                <h3>Harbor &amp; Lane</h3>
+                <span class="project-industry">Local Business</span>
+              </div>
+              <p class="project-desc">A hospitality site built to turn local searches into reservations.</p>
+              <div class="project-side">
+                <ul class="project-services">
+                  <li>Website Design</li>
+                  <li>Development</li>
+                  <li>SEO-Ready Build</li>
+                </ul>
+                <a class="link-arrow" href="#contact">View project <span class="arrow" aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="work-cta">
+          <a class="btn btn--ghost" href="#contact" data-magnetic>
+            View All Work <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         / PRINCIPLES — Why Blackgrid
+         ===================================================================== -->
+    <section class="section principles" id="principles" aria-labelledby="principles-title">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-label"><span class="sec-label-num">··</span><span class="sec-label-sep">/</span><span>Principles</span></p>
+          <span class="sec-coord" aria-hidden="true">BG.03</span>
+        </header>
+
+        <div class="sec-headline-row">
+          <h2 class="sec-title display" id="principles-title" data-reveal>Built different.</h2>
+          <p class="sec-intro" data-reveal style="--d:.1s">Four principles behind every Blackgrid build.</p>
+        </div>
+
+        <div class="principles-grid">
+          <article class="principle" data-reveal style="--d:0s">
+            <span class="principle-num" aria-hidden="true">01</span>
+            <h3>Strategy First</h3>
+            <p>We don't just make websites look good. We understand the goal behind them.</p>
+            <span class="principle-tag">P.01 — Intent before interface</span>
+          </article>
+
+          <article class="principle" data-reveal style="--d:.05s">
+            <span class="principle-num" aria-hidden="true">02</span>
+            <h3>Design With Purpose</h3>
+            <p>Every section, interaction, and visual element should have a reason.</p>
+            <span class="principle-tag">P.02 — Nothing decorative</span>
+          </article>
+
+          <article class="principle" data-reveal style="--d:.1s">
+            <span class="principle-num" aria-hidden="true">03</span>
+            <h3>Built For Performance</h3>
+            <p>Fast, responsive, accessible, and optimized for real-world use.</p>
+            <span class="principle-tag">P.03 — Speed is a feature</span>
+          </article>
+
+          <article class="principle" data-reveal style="--d:.15s">
+            <span class="principle-num" aria-hidden="true">04</span>
+            <h3>Made To Grow</h3>
+            <p>Websites should provide a foundation that can evolve with the business.</p>
+            <span class="principle-tag">P.04 — Built to extend</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         03 / PROCESS
+         ===================================================================== -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="process-grid">
+          <div class="process-sticky">
+            <header class="sec-head">
+              <p class="sec-label"><span class="sec-label-num">03</span><span class="sec-label-sep">/</span><span>Process</span></p>
+              <span class="sec-coord" aria-hidden="true">BG.04</span>
+            </header>
+            <h2 class="sec-title display" id="process-title" data-reveal>From idea to launch.</h2>
+            <div class="process-aside" data-reveal style="--d:.1s">
+              <p>A clear, six-step process. You always know where the project stands and what happens next.</p>
+              <a class="link-arrow" href="#contact">Start a Project <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </div>
+
+          <ol class="process-list" id="process-list">
+            <div class="process-rail" aria-hidden="true">
+              <div class="process-rail-progress" id="process-rail-progress"></div>
+            </div>
+
+            <li class="process-step" data-reveal>
+              <span class="process-step-num">01</span>
+              <div class="process-step-body">
+                <h3>Discover</h3>
+                <p>Understand the business, audience, goals, and requirements.</p>
+              </div>
+            </li>
+
+            <li class="process-step" data-reveal>
+              <span class="process-step-num">02</span>
+              <div class="process-step-body">
+                <h3>Strategize</h3>
+                <p>Plan the structure, content, user journey, and visual direction.</p>
+              </div>
+            </li>
+
+            <li class="process-step" data-reveal>
+              <span class="process-step-num">03</span>
+              <div class="process-step-body">
+                <h3>Design</h3>
+                <p>Create the visual system and user experience.</p>
+              </div>
+            </li>
+
+            <li class="process-step" data-reveal>
+              <span class="process-step-num">04</span>
+              <div class="process-step-body">
+                <h3>Build</h3>
+                <p>Develop the website with responsive and modern technology.</p>
+              </div>
+            </li>
+
+            <li class="process-step" data-reveal>
+              <span class="process-step-num">05</span>
+              <div class="process-step-body">
+                <h3>Refine</h3>
+                <p>Test, optimize, polish, and prepare everything for launch.</p>
+              </div>
+            </li>
+
+            <li class="process-step" data-reveal>
+              <span class="process-step-num">06</span>
+              <div class="process-step-body">
+                <h3>Launch</h3>
+                <p>Deploy the website and provide the necessary handover/support.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         04 / ABOUT
+         ===================================================================== -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-label"><span class="sec-label-num">04</span><span class="sec-label-sep">/</span><span>About</span></p>
+          <span class="sec-coord" aria-hidden="true">BG.05</span>
+        </header>
+
+        <div class="about-inner">
+          <h2 class="sec-title display" id="about-title" data-reveal>Digital, without the noise.</h2>
+
+          <div class="about-copy">
+            <p data-reveal style="--d:.1s">Blackgrid exists to help businesses build a stronger presence on the internet.</p>
+            <p data-reveal style="--d:.2s">We combine <strong>strategy, design, and development</strong> to create websites that don't just look modern — they communicate clearly, perform well, and give brands the confidence to compete online.</p>
+
+            <ul class="about-spec" data-reveal style="--d:.3s">
+              <li><span class="k">Discipline</span><span class="v">Strategy × Design × Development</span></li>
+              <li><span class="k">Output</span><span class="v">Websites · Stores · Products</span></li>
+              <li><span class="k">Standard</span><span class="v">Fast · Responsive · SEO-ready</span></li>
+            </ul>
+
+            <a class="btn btn--primary" href="#contact" data-magnetic data-reveal style="--d:.4s">
+              Let's Build Something <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         / FIELDS — who we work with
+         ===================================================================== -->
+    <section class="section fields" id="fields" aria-labelledby="fields-title">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-label"><span class="sec-label-num">··</span><span class="sec-label-sep">/</span><span>Fields</span></p>
+          <span class="sec-coord" aria-hidden="true">BG.06</span>
+        </header>
+
+        <div class="sec-headline-row">
+          <h2 class="sec-title display" id="fields-title" data-reveal>Built for ambitious brands.</h2>
+          <p class="sec-intro" data-reveal style="--d:.1s">From first ventures to established teams — if the goal is to look and perform better online, we can help.</p>
+        </div>
+      </div>
+
+      <div class="fields-marquees">
+        <div class="marquee" aria-label="Industries we work with">
+          <div class="marquee-track">
+            <span class="chip">Startups</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">Small Businesses</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">Agencies</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">Creators</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">SaaS</span><span class="chip-x" aria-hidden="true">×</span>
+            <!-- duplicate for seamless loop (hidden from AT) -->
+            <span class="chip" aria-hidden="true">Startups</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">Small Businesses</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">Agencies</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">Creators</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">SaaS</span><span class="chip-x" aria-hidden="true">×</span>
+          </div>
+        </div>
+
+        <div class="marquee marquee--reverse">
+          <div class="marquee-track">
+            <span class="chip">E-Commerce</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">Personal Brands</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">Professional Services</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">Startups</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip">SaaS</span><span class="chip-x" aria-hidden="true">×</span>
+            <!-- duplicate for seamless loop (hidden from AT) -->
+            <span class="chip" aria-hidden="true">E-Commerce</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">Personal Brands</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">Professional Services</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">Startups</span><span class="chip-x" aria-hidden="true">×</span>
+            <span class="chip" aria-hidden="true">SaaS</span><span class="chip-x" aria-hidden="true">×</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         / VOICES — testimonials
+         PLACEHOLDER CONTENT — marked until real testimonials arrive.
+         ===================================================================== -->
+    <section class="section voices" id="voices" aria-labelledby="voices-title">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-label"><span class="sec-label-num">··</span><span class="sec-label-sep">/</span><span>Voices</span></p>
+          <span class="sec-coord" aria-hidden="true">BG.07</span>
+        </header>
+
+        <div class="sec-headline-row">
+          <h2 class="sec-title display" id="voices-title" data-reveal>What clients say</h2>
+          <p class="sec-intro" data-reveal style="--d:.1s">Sample layout for client feedback — swap in real quotes before launch.</p>
+        </div>
+
+        <div class="voices-grid">
+          <!-- PLACEHOLDER TESTIMONIAL -->
+          <figure class="voice-card" data-placeholder data-reveal style="--d:0s">
+            <div class="voice-head">
+              <span class="pill-placeholder">Placeholder</span>
+            </div>
+            <blockquote class="voice-quote">Clear process, sharp design, and a site that finally matches how serious our product is.</blockquote>
+            <figcaption class="voice-author">
+              <span class="voice-name">Client Name</span>
+              <span class="voice-role">Role · Company</span>
+            </figcaption>
+          </figure>
+
+          <!-- PLACEHOLDER TESTIMONIAL -->
+          <figure class="voice-card" data-placeholder data-reveal style="--d:.05s">
+            <div class="voice-head">
+              <span class="pill-placeholder">Placeholder</span>
+            </div>
+            <blockquote class="voice-quote">Every decision had a reason. The launch felt calm because nothing was left to chance.</blockquote>
+            <figcaption class="voice-author">
+              <span class="voice-name">Client Name</span>
+              <span class="voice-role">Role · Company</span>
+            </figcaption>
+          </figure>
+
+          <!-- PLACEHOLDER TESTIMONIAL -->
+          <figure class="voice-card" data-placeholder data-reveal style="--d:.1s">
+            <div class="voice-head">
+              <span class="pill-placeholder">Placeholder</span>
+            </div>
+            <blockquote class="voice-quote">Fast, precise, and easy to work with. Our new site does the talking before we say a word.</blockquote>
+            <figcaption class="voice-author">
+              <span class="voice-name">Client Name</span>
+              <span class="voice-role">Role · Company</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         / FAQ
+         ===================================================================== -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="faq-grid">
+          <div class="faq-side">
+            <header class="sec-head">
+              <p class="sec-label"><span class="sec-label-num">··</span><span class="sec-label-sep">/</span><span>FAQ</span></p>
+              <span class="sec-coord" aria-hidden="true">BG.08</span>
+            </header>
+            <h2 class="sec-title display" id="faq-title" data-reveal>Before you ask.</h2>
+            <p data-reveal style="--d:.1s">Straight answers to the questions we hear most. Anything else — just ask.</p>
+            <a class="link-arrow" href="#contact">Ask a Question <span class="arrow" aria-hidden="true">→</span></a>
+          </div>
+
+          <div class="faq-list" data-reveal style="--d:.1s">
+            <div class="faq-item is-open">
+              <h3>
+                <button class="faq-q" id="faq-q-1" aria-expanded="true" aria-controls="faq-a-1">
+                  How much does a website cost?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-1" role="region" aria-labelledby="faq-q-1">
+                <div class="faq-a-inner">
+                  <p>Every project is scoped around its goals, pages, and complexity. After a short discovery conversation we provide a clear quote before any work begins. Simple landing pages sit at the lower end; larger e-commerce builds at the higher end.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <h3>
+                <button class="faq-q" id="faq-q-2" aria-expanded="false" aria-controls="faq-a-2">
+                  How long does a website take to build?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-2" role="region" aria-labelledby="faq-q-2">
+                <div class="faq-a-inner">
+                  <p>Most projects launch in a few weeks, depending on scope and how quickly content and feedback come together. We confirm a realistic timeline up front and keep you updated at every step.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <h3>
+                <button class="faq-q" id="faq-q-3" aria-expanded="false" aria-controls="faq-a-3">
+                  Do you redesign existing websites?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-3" role="region" aria-labelledby="faq-q-3">
+                <div class="faq-a-inner">
+                  <p>Yes. We audit what exists, keep what works, and rebuild the rest around clearer structure, modern design, and better performance.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <h3>
+                <button class="faq-q" id="faq-q-4" aria-expanded="false" aria-controls="faq-a-4">
+                  Can you build e-commerce websites?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-4" role="region" aria-labelledby="faq-q-4">
+                <div class="faq-a-inner">
+                  <p>Yes. We build online stores focused on usability, trust, and a smooth path to checkout — including product structure, payments, and the essentials for running the store day to day.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <h3>
+                <button class="faq-q" id="faq-q-5" aria-expanded="false" aria-controls="faq-a-5">
+                  Do you provide website maintenance?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-5" role="region" aria-labelledby="faq-q-5">
+                <div class="faq-a-inner">
+                  <p>Yes. Ongoing maintenance covers updates, fixes, performance checks, and small improvements after launch, so the site stays healthy as the business moves.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <h3>
+                <button class="faq-q" id="faq-q-6" aria-expanded="false" aria-controls="faq-a-6">
+                  Can you help with domain and hosting?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-6" role="region" aria-labelledby="faq-q-6">
+                <div class="faq-a-inner">
+                  <p>Yes. We can advise on domain, hosting, and deployment — or handle the full setup so everything is configured correctly from day one.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <h3>
+                <button class="faq-q" id="faq-q-7" aria-expanded="false" aria-controls="faq-a-7">
+                  Will the website work on mobile?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-7" role="region" aria-labelledby="faq-q-7">
+                <div class="faq-a-inner">
+                  <p>Every build is responsive and tested across desktop, tablet, and mobile — with layouts designed for small screens rather than simply compressed.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <h3>
+                <button class="faq-q" id="faq-q-8" aria-expanded="false" aria-controls="faq-a-8">
+                  Can you help with SEO?
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="faq-a" id="faq-a-8" role="region" aria-labelledby="faq-q-8">
+                <div class="faq-a-inner">
+                  <p>Websites are built on SEO-ready foundations: clean structure, fast performance, proper metadata, and technical best practices. For ongoing content and rankings we can suggest next steps and partners.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         Statement band
+         ===================================================================== -->
+    <section class="statement" aria-label="Brand statement">
+      <div class="container">
+        <div class="statement-inner">
+          <p class="statement-line" data-reveal-lines><span class="line"><span class="line-inner">Blackgrid doesn't just build websites.</span></span></p>
+          <p class="statement-line" data-reveal-lines style="--d:.15s"><span class="line"><span class="line-inner">It builds <span class="accent">digital presence.</span></span></span></p>
+        </div>
+        <div class="statement-meta">
+          <span>BG — Manifest</span>
+          <span>Clarity → Design → Trust → Performance → Conversion</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         05 / CONTACT
+         ===================================================================== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-label"><span class="sec-label-num">05</span><span class="sec-label-sep">/</span><span>Contact</span></p>
+          <span class="sec-coord" aria-hidden="true">BG.09</span>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-side">
+            <h2 class="sec-title display" id="contact-title" data-reveal>Have a project in mind?</h2>
+            <p class="contact-lead" data-reveal style="--d:.1s">Tell us what you're building. We'll figure out the rest.</p>
+
+            <ol class="contact-steps" data-reveal style="--d:.2s">
+              <li><span class="n">01</span><span>Send the form — a few details are enough.</span></li>
+              <li><span class="n">02</span><span>We reply with questions and a clear scope.</span></li>
+              <li><span class="n">03</span><span>You get a plan and a fixed quote to decide.</span></li>
+            </ol>
+
+            <!--
+              DIRECT CONTACT — enable when real details exist:
+              <ul class="footer-nav">
+                <li><a href="mailto:hello@blackgrid.studio">hello@blackgrid.studio</a></li>
+              </ul>
+            -->
+          </div>
+
+          <div class="contact-panel frame" data-reveal style="--d:.15s">
+            <span class="frame-br" aria-hidden="true">+</span>
+            <span class="frame-bl" aria-hidden="true">+</span>
+
+            <div class="contact-panel-head">
+              <h3>Project Inquiry</h3>
+              <span class="mono muted">Form — 06 Fields</span>
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <!-- Honeypot -->
+              <div class="hp-field" aria-hidden="true">
+                <label for="company-website">Website</label>
+                <input type="text" id="company-website" name="website" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Name *</label>
+                  <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required>
+                  <p class="field-error" id="name-error"></p>
+                </div>
+
+                <div class="field">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" autocomplete="email" placeholder="you@company.com" required>
+                  <p class="field-error" id="email-error"></p>
+                </div>
+
+                <div class="field">
+                  <label for="company">Company / Brand</label>
+                  <input type="text" id="company" name="company" autocomplete="organization" placeholder="Company or brand name">
+                  <p class="field-error"></p>
+                </div>
+
+                <div class="field">
+                  <label for="service">Service *</label>
+                  <select id="service" name="service" required>
+                    <option value="" selected disabled>Select a service</option>
+                    <option value="Website">Website</option>
+                    <option value="Landing Page">Landing Page</option>
+                    <option value="E-commerce">E-commerce</option>
+                    <option value="UI/UX">UI/UX</option>
+                    <option value="Redesign">Redesign</option>
+                    <option value="Maintenance">Maintenance</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <p class="field-error" id="service-error"></p>
+                </div>
+
+                <fieldset class="field field--full" style="border:0;margin:0;padding:0;">
+                  <legend class="field-label" style="margin-bottom:10px;">Budget range</legend>
+                  <div class="budget-options">
+                    <div class="budget-option">
+                      <input type="radio" id="budget-1" name="budget" value="Under ₹25K">
+                      <label for="budget-1">Under ₹25K</label>
+                    </div>
+                    <div class="budget-option">
+                      <input type="radio" id="budget-2" name="budget" value="₹25K–₹50K">
+                      <label for="budget-2">₹25K–₹50K</label>
+                    </div>
+                    <div class="budget-option">
+                      <input type="radio" id="budget-3" name="budget" value="₹50K–₹1L">
+                      <label for="budget-3">₹50K–₹1L</label>
+                    </div>
+                    <div class="budget-option">
+                      <input type="radio" id="budget-4" name="budget" value="₹1L+">
+                      <label for="budget-4">₹1L+</label>
+                    </div>
+                    <div class="budget-option">
+                      <input type="radio" id="budget-5" name="budget" value="Not sure yet" checked>
+                      <label for="budget-5">Not sure yet</label>
+                    </div>
+                  </div>
+                </fieldset>
+
+                <div class="field field--full">
+                  <label for="details">Project details *</label>
+                  <textarea id="details" name="details" placeholder="What are you building? Goals, timeline, anything useful." required></textarea>
+                  <p class="field-error" id="details-error"></p>
+                </div>
+              </div>
+
+              <button class="btn btn--primary" type="submit" data-magnetic>
+                Start My Project <span class="arrow" aria-hidden="true">→</span>
+              </button>
+
+              <p class="form-note">Your details stay between us. No lists, no noise.</p>
+            </form>
+
+            <div class="form-success" id="form-success" role="status" aria-live="polite">
+              <span class="mono accent">Transmission complete</span>
+              <h3>Inquiry received.</h3>
+              <p>Thanks for reaching out. We'll review the details and get back to you with next steps.</p>
+              <p class="form-note">Form not connected yet? Configure FORM_ENDPOINT in js/form.js.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       Footer
+       Social links intentionally omitted — enable the commented block
+       in the footer-cta column when real profile URLs exist.
+       ===================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="#home" aria-label="Blackgrid — back to top">
+            <svg class="logo-mark" viewBox="0 0 18 18" aria-hidden="true" focusable="false">
+              <rect class="cell" x="1" y="1" width="6.5" height="6.5"></rect>
+              <rect class="cell cell--on" x="10.5" y="1" width="6.5" height="6.5"></rect>
+              <rect class="cell" x="1" y="10.5" width="6.5" height="6.5"></rect>
+              <rect class="cell" x="10.5" y="10.5" width="6.5" height="6.5"></rect>
+            </svg>
+            Blackgrid
+          </a>
+          <p>Digital experiences built with clarity, creativity, and precision.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <nav class="footer-nav" aria-label="Footer">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer-col footer-cta">
+          <h4>Start</h4>
+          <p>Have a project in mind? Let's build something worth remembering.</p>
+          <a class="btn btn--primary" href="#contact" data-magnetic>
+            Start a Project <span class="arrow" aria-hidden="true">→</span>
+          </a>
+
+          <!--
+            SOCIAL — enable when real profile URLs exist, e.g.:
+            <div class="footer-nav">
+              <a href="https://instagram.com/..." rel="noopener">Instagram</a>
+              <a href="https://linkedin.com/..." rel="noopener">LinkedIn</a>
+              <a href="https://github.com/..." rel="noopener">GitHub</a>
+              <a href="https://x.com/..." rel="noopener">X</a>
+            </div>
+          -->
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Blackgrid. All rights reserved.</span>
+        <span>Design × Development × Digital</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
